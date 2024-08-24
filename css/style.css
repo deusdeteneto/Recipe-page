@@ -44,10 +44,103 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Outfit", sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  font-family: "YoungSerif", sans-serif;
+  color: var(--stone-900);
+  font-size: 36px;
+}
+
+h2 {
+  font-family: "YoungSerif", sans-serif;
+  font-size: 26px;
+  color: var(--brown-800);
+  margin: 28px 0 18px;
+}
+
+p {
+  color: var(--stone-600);
+  margin: 18px 0;
+}
+
+.preparation {
+  background-color: var(--rose-50);
+  padding: 18px;
+}
+
+.preparation-title {
+  color: var(--rose-800);
+  font-family: "Outfit", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+ul {
+  margin-bottom: 0;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+li {
+  margin-left: 0;
+  color: var(--stone-600);
+  padding-left: 1rem;
+}
+
+.preparation-ingredientes,
+.preparation-instructions {
+  color: var(--stone-600);
+  border-bottom: solid 1.6px var(--stone-150);
+}
+
+.preparation-ingredientes ul,
+.preparation-instructions ol {
+  margin-bottom: 28px;
+}
+
+/* Style Order List */
+.preparation-instructions ol {
+  counter-reset: instruction-counter;
+  padding-left: 0.5rem;
+}
+
+.preparation-instructions li {
+  position: relative;
+  margin-left: 0;
+  padding-left: 2rem;
+  list-style: none;
+}
+
+.preparation-instructions li::before {
+  content: counter(instruction-counter) ". ";
+  counter-increment: instruction-counter;
+  font-weight: bold;
+  color: var(--brown-800);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Style Table */
+.nutrient {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  color: var(--stone-600) !important;
+  margin-left: 60px !important;
+}
+
+.value {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--brown-800) !important;
 }
 
 .attribution {
-  color: var(--brown-800);
+  color: var(--stone-600);
   font-size: 11px;
   text-align: center;
   padding: 10px;
