@@ -47,16 +47,23 @@ body {
   font-size: 15px;
 }
 
-h1 {
+.card {
+  background-color: var(--white);
+}
+
+h1,
+h2 {
   font-family: "YoungSerif", sans-serif;
+}
+
+h1 {
   color: var(--stone-900);
   font-size: 36px;
 }
 
 h2 {
-  font-family: "YoungSerif", sans-serif;
-  font-size: 26px;
   color: var(--brown-800);
+  font-size: 26px;
   margin: 28px 0 18px;
 }
 
@@ -125,20 +132,35 @@ li {
 }
 
 /* Style Table */
-.nutrient {
+.nutrient,
+.value {
   font-family: "Outfit", sans-serif;
   font-size: 15px;
+}
+
+.nutrient {
   color: var(--stone-600) !important;
   margin-left: 60px !important;
 }
 
 .value {
-  font-family: "Outfit", sans-serif;
-  font-size: 15px;
   font-weight: bold;
   color: var(--brown-800) !important;
 }
 
+table.table tbody tr.last-row td {
+  border-bottom: none;
+}
+
+table.table tbody tr.first-row td {
+  border-top: none !important;
+}
+
+table.table tbody td:first-child {
+  padding-left: 40px;
+}
+
+/* Footer */
 .attribution {
   color: var(--stone-600);
   font-size: 11px;
@@ -148,4 +170,22 @@ li {
 
 .attribution a {
   color: var(--rose-800);
+}
+
+@media (max-width: 576px) {
+  .card,
+  .card-img-top {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    border-radius: 0 !important;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  body {
+    margin: 0;
+  }
 }

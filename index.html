@@ -25,18 +25,18 @@
   <body>
     <main class="container">
       <article
-        class="card mx-auto mt-4 p-4 border-0 rounded-4"
+        class="card mx-sm-auto mt-sm-4 p-sm-4 border-0 rounded-4 m-0"
         style="max-width: 42rem"
       >
         <figure>
           <img
             src="assets/images/image-omelette.jpeg"
-            class="card-img-top rounded-4 p-1"
+            class="card-img-top rounded-4 p-sm-1"
             alt="Simple Omelette"
           />
         </figure>
 
-        <div class="card-body px-2 pb-0">
+        <div class="card-body px-sm-2 pb-sm-0 px-4 pb-5">
           <h1>Simple Omelette Recipe</h1>
           <p>
             An easy and quick dish, perfect for any meal. This classic omelette
@@ -109,7 +109,7 @@
 
             <table class="table">
               <tbody>
-                <tr>
+                <tr class="first-row">
                   <td class="nutrient">Calories</td>
                   <td class="value">277kcal</td>
                 </tr>
@@ -121,7 +121,7 @@
                   <td class="nutrient">Protein</td>
                   <td class="value">20g</td>
                 </tr>
-                <tr>
+                <tr class="last-row">
                   <td class="nutrient">Fat</td>
                   <td class="value">22g</td>
                 </tr>
@@ -132,9 +132,10 @@
       </article>
     </main>
 
-    <footer class="text-center my-4">
+    <footer class="text-center my-4 d-sm-grid d-none">
       <p class="attribution">
         Challenge by
+        <!-- TODO Adicionar link para a página da solução no Frontend Mentor -->
         <a
           href="https://www.frontendmentor.io/solutions/social-links-profile-OWEFOwPysu"
           target="_blank"
