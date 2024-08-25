@@ -1,6 +1,6 @@
 # Frontend Mentor - Simple Omelette Recipe Solution
 
-Este projeto é uma solução para o [desafio de receita de omelete no Frontend Mentor](https://www.frontendmentor.io/challenges/simple-omelette-recipe-xyz). Os desafios do Frontend Mentor ajudam a melhorar as habilidades de codificação ao construir projetos realistas.
+Este projeto é uma solução para o [desafio de receita de omelete no Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Os desafios do Frontend Mentor ajudam a melhorar as habilidades de codificação ao construir projetos realistas.
 
 Sinta-se à vontade para visitar o meu perfil no Frontend Mentor - [@deusdeteneto](https://www.frontendmentor.io/profile/deusdeteneto)
 
@@ -21,18 +21,18 @@ Sinta-se à vontade para visitar o meu perfil no Frontend Mentor - [@deusdetenet
 
 ### Screenshot
 
-![Screenshot do Projeto](https://raw.githubusercontent.com/deusdeteneto/simple-omelette-recipe/main/assets/images/desktop-view.png)
+![Screenshot do Projeto](https://raw.githubusercontent.com/deusdeteneto/Recipe-page/main/design/desktop-design.jpg)
 
 ### Links
 
-- URL da Solução: [Adicionar URL da solução aqui](https://www.frontendmentor.io/solutions/simple-omelette-recipe-xyz)
-- URL do Site: [Adicionar URL do site aqui](https://simple-omelette-recipe.vercel.app/)
+- URL da Solução: [Adicionar URL da solução aqui](https://www.frontendmentor.io/solutions/recipe-page-7k_7AJxq-q)
+- URL do Site: [Adicionar URL do site aqui](https://recipe-page-zeta-five.vercel.app/)
 
 ## Meu processo
 
 ### Construído com
 <p align="center">
-  <a href="#"><img src="https://skillicons.dev/icons?i=html,css,bootstrap" alt="My Skills"></a>
+  <a href="#"><img src="https://skillicons.dev/icons?i=html,css,bootstrap,vercel" alt="My Skills"></a>
 </p>
 
 ### O que eu aprendi
