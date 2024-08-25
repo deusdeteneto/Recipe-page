@@ -1,4 +1,4 @@
-# Frontend Mentor - Simple Omelette Recipe Solution
+# Simple Omelette Recipe Solution
 
 Este projeto é uma solução para o [desafio de receita de omelete no Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Os desafios do Frontend Mentor ajudam a melhorar as habilidades de codificação ao construir projetos realistas.
 
